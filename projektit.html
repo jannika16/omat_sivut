@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <head>
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+      <meta charset="utf-8">
+      <title> Jannika Pippuri </title>
+    </head>
+    <body>
+        <nav class="linkit">
+          <a href="index.html">Home</a>
+          <a href="yhteystiedot.html">Yhteystiedot</a>
+    	    <a href="projektit.html">Projektit</a>
+          <a href="http://januserilainen.blogspot.fi/?zx=dccd5e94fa59eaa6">Blogi</a>
+        </nav>
+  </head>
+  <header>
+    <h1>Projektit</h1>
+  </header>
+    <section>
+      <p>Valmiit Projektit..</p>
+    </section>
+    <form name="projekti" method="get" action="tallennaProjekti.php">
+      <label>Projektin nimi</label>
+        <input type="text" name="projekti">
+      <label>Päivämäärä</label>
+        <input type="date" name="pvm">
+      <label>Kuvaus</label>
+      <textarea rows="5" cols="40"></textarea>
+        <input type="submit" name="add_project" value="Add Project">
+    </form>
+  </body>
+</html>

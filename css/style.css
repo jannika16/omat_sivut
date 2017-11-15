@@ -1,0 +1,75 @@
+body {
+  margin: 40px;
+}
+
+a:link, a:visited {
+  background-color: #ffffff;
+  color: #E26A6A;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.linkit {
+  font-family: 'Pacifico';
+  float: right;
+  margin: 5px 0px 80px 150px;
+}
+
+a:hover, a:active {
+  color: #ffffff;
+  background-color: #E26A6A;
+}
+
+header {
+  font-family: 'Lobster';
+  font-size: 50px;
+  color: #d24d57;
+}
+
+section {
+  font-family: 'Pacifico';
+  font-size: 30px;
+  color: #E26A6A;
+  margin: 40px;
+}
+
+label {
+  font-family: 'Amatic SC';
+  font-size: 25px;
+  color: #E26A6A;
+}
+
+input[type="text"], input[type="date"] {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 5px;
+  border: 1px solid #F1A9A0;
+  font-family: 'Amatic SC';
+  font-size: 20px;
+}
+
+textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 5px;
+  resize: none;
+  border: 1px solid #F1A9A0;
+  font-family: 'Amatic SC';
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  padding: 12px 28px;
+  font-family: 'Amatic SC';
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #E26A6A;
+  border: 1px solid #F1A9A0;
+}
+
+input[type="submit"]:hover, input[type="submit"]:active {
+  color: #ffffff;
+  background-color: #F1A9A0;
+}
