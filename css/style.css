@@ -44,7 +44,7 @@ label {
 input[type="text"], input[type="date"] {
   width: 100%;
   margin: 10px 0;
-  padding: 10px 5px;
+  padding: 5px 5px;
   border: 1px solid #F1A9A0;
   font-family: 'Amatic SC';
   font-size: 20px;
@@ -60,26 +60,9 @@ textarea {
   font-size: 20px;
 }
 
-input[type="file"] {
-  display: none;
-}
-
-.custom-file-upload {
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px 5px;
-  border: 1px solid #F1A9A0;
-  font-family: 'Amatic SC';
-  font-size: 20px;
-}
-
-.custom-file-upload:hover, .custom-file-upload:active {
-  color: #fff;
-  background-color: #F1A9A0;
-}
-
 input[type="submit"] {
-  width: 100%;
+  float: right;
+  width: 250px;
   margin: 10px 0;
   padding: 10px 10px;
   font-family: 'Amatic SC';
@@ -92,4 +75,18 @@ input[type="submit"] {
 input[type="submit"]:hover, input[type="submit"]:active {
   color: #fff;
   background-color: #F1A9A0;
+}
+
+article {
+  float: left;
+  height: 500px;
+  width: 500px;
+  padding-left: 50px;
+}
+
+aside {
+  float: right;
+  height: 500px;
+  width: 500px;
+  padding-right: 50px;
 }
