@@ -23,18 +23,21 @@
     <section>
       <p>Valmiit Projektit..</p>
     </section>
+    <article>
+      <label for="otsikko">Projektin nimi</label>
+      <label for="pvm">Päivämäärä</label>
+      <label for="kuvaus">Kuvaus</label>
+    </article>
+    <aside>
     <form name="projekti" method="get" action="tallennaProjekti.php">
       <label>Projektin nimi</label>
-        <input type="text" name="projekti">
+        <input type="text" name="nimi">
       <label>Päivämäärä</label>
         <input type="date" name="pvm">
       <label>Kuvaus</label>
-      <textarea rows="5" cols="40"></textarea>
-        <label for="file-upload" class="custom-file-upload">
-            <i class="fa fa-cloud-upload"></i> Lisää kuva
-        </label>
-        <input id="file-upload" type="file"/>
+        <textarea rows="5" cols="40" name="kuvaus"></textarea>
         <input type="submit" name="add_project" value="Add Project">
+      </aside>
     </form>
   </body>
 </html>
